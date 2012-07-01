@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		20F953B2139264CF00168923 /* AdWhirlAdNetworkAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F95399139264CF00168923 /* AdWhirlAdNetworkAdapter.h */; };
+		20F953B3139264CF00168923 /* AdWhirlDelegateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F9539A139264CF00168923 /* AdWhirlDelegateProtocol.h */; };
+		20F953B4139264CF00168923 /* AdWhirlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F9539B139264CF00168923 /* AdWhirlView.h */; };
+		20F953B5139264CF00168923 /* AdWhirlAdapterCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F9539D139264CF00168923 /* AdWhirlAdapterCustom.h */; };
+		20F953B6139264CF00168923 /* AdWhirlAdapterEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F9539E139264CF00168923 /* AdWhirlAdapterEvent.h */; };
+		20F953B7139264CF00168923 /* AdWhirlAdapterGeneric.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F9539F139264CF00168923 /* AdWhirlAdapterGeneric.h */; };
+		20F953B8139264CF00168923 /* AdWhirlAdNetworkAdapter+Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953A0139264CF00168923 /* AdWhirlAdNetworkAdapter+Helpers.h */; };
+		20F953B9139264CF00168923 /* AdWhirlAdNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953A1139264CF00168923 /* AdWhirlAdNetworkConfig.h */; };
+		20F953BA139264CF00168923 /* AdWhirlAdNetworkRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953A2139264CF00168923 /* AdWhirlAdNetworkRegistry.h */; };
+		20F953BB139264CF00168923 /* AdWhirlClassWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953A3139264CF00168923 /* AdWhirlClassWrapper.h */; };
+		20F953BC139264CF00168923 /* AdWhirlConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953A4139264CF00168923 /* AdWhirlConfig.h */; };
+		20F953BD139264CF00168923 /* AdWhirlConfigStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953A5139264CF00168923 /* AdWhirlConfigStore.h */; };
+		20F953BE139264CF00168923 /* AdWhirlCustomAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953A6139264CF00168923 /* AdWhirlCustomAdView.h */; };
+		20F953BF139264CF00168923 /* AdWhirlError.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953A7139264CF00168923 /* AdWhirlError.h */; };
+		20F953C0139264CF00168923 /* AdWhirlLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953A8139264CF00168923 /* AdWhirlLog.h */; };
+		20F953C1139264CF00168923 /* AdWhirlView+.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953A9139264CF00168923 /* AdWhirlView+.h */; };
+		20F953C2139264CF00168923 /* AdWhirlWebBrowserController.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953AB139264CF00168923 /* AdWhirlWebBrowserController.h */; };
+		20F953C3139264CF00168923 /* AWNetworkReachabilityDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953AC139264CF00168923 /* AWNetworkReachabilityDelegate.h */; };
+		20F953C4139264CF00168923 /* AWNetworkReachabilityWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953AD139264CF00168923 /* AWNetworkReachabilityWrapper.h */; };
+		20F953C5139264CF00168923 /* UIColor+AdWhirlConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953AE139264CF00168923 /* UIColor+AdWhirlConfig.h */; };
+		20F953C6139264CF00168923 /* ARRollerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953B0139264CF00168923 /* ARRollerProtocol.h */; };
+		20F953C7139264CF00168923 /* ARRollerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953B1139264CF00168923 /* ARRollerView.h */; };
+		20F953D5139264DA00168923 /* CDataScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953C9139264DA00168923 /* CDataScanner.h */; };
+		20F953D6139264DA00168923 /* CDataScanner_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953CB139264DA00168923 /* CDataScanner_Extensions.h */; };
+		20F953D7139264DA00168923 /* NSCharacterSet_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953CC139264DA00168923 /* NSCharacterSet_Extensions.h */; };
+		20F953D8139264DA00168923 /* NSDictionary_JSONExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953CD139264DA00168923 /* NSDictionary_JSONExtensions.h */; };
+		20F953D9139264DA00168923 /* NSScanner_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953CE139264DA00168923 /* NSScanner_Extensions.h */; };
+		20F953DA139264DA00168923 /* CJSONDataSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953D0139264DA00168923 /* CJSONDataSerializer.h */; };
+		20F953DB139264DA00168923 /* CJSONDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953D1139264DA00168923 /* CJSONDeserializer.h */; };
+		20F953DC139264DA00168923 /* CJSONScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953D2139264DA00168923 /* CJSONScanner.h */; };
+		20F953DD139264DA00168923 /* CJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953D3139264DA00168923 /* CJSONSerializer.h */; };
+		20F953DE139264DA00168923 /* CSerializedJSONData.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F953D4139264DA00168923 /* CSerializedJSONData.h */; };
+		20F9541C13926DD500168923 /* AdWhirlAdapterMdotM.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F9541A13926DD500168923 /* AdWhirlAdapterMdotM.h */; };
+		20F9541D13926DD500168923 /* AdWhirlAdapterMdotM.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F9541B13926DD500168923 /* AdWhirlAdapterMdotM.m */; };
+		24DD6CF91134B3F500162E58 /* ComRiksofTiMdotmModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComRiksofTiMdotmModule.h */; };
+		24DD6CFA1134B3F500162E58 /* ComRiksofTiMdotmModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComRiksofTiMdotmModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* ComRiksofTiMdotmModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComRiksofTiMdotmModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* ComRiksofTiMdotmModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComRiksofTiMdotmModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* ComRiksofTiMdotm_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComRiksofTiMdotm_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = mdotm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20F95399139264CF00168923 /* AdWhirlAdNetworkAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlAdNetworkAdapter.h; path = ../adwhirl/Classes/AdWhirl/adapters/AdWhirlAdNetworkAdapter.h; sourceTree = SOURCE_ROOT; };
+		20F9539A139264CF00168923 /* AdWhirlDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlDelegateProtocol.h; path = ../adwhirl/Classes/AdWhirl/AdWhirlDelegateProtocol.h; sourceTree = SOURCE_ROOT; };
+		20F9539B139264CF00168923 /* AdWhirlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlView.h; path = ../adwhirl/Classes/AdWhirl/AdWhirlView.h; sourceTree = SOURCE_ROOT; };
+		20F9539D139264CF00168923 /* AdWhirlAdapterCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlAdapterCustom.h; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlAdapterCustom.h; sourceTree = SOURCE_ROOT; };
+		20F9539E139264CF00168923 /* AdWhirlAdapterEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlAdapterEvent.h; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlAdapterEvent.h; sourceTree = SOURCE_ROOT; };
+		20F9539F139264CF00168923 /* AdWhirlAdapterGeneric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlAdapterGeneric.h; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlAdapterGeneric.h; sourceTree = SOURCE_ROOT; };
+		20F953A0139264CF00168923 /* AdWhirlAdNetworkAdapter+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AdWhirlAdNetworkAdapter+Helpers.h"; path = "../adwhirl/Classes/AdWhirl/internal/AdWhirlAdNetworkAdapter+Helpers.h"; sourceTree = SOURCE_ROOT; };
+		20F953A1139264CF00168923 /* AdWhirlAdNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlAdNetworkConfig.h; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlAdNetworkConfig.h; sourceTree = SOURCE_ROOT; };
+		20F953A2139264CF00168923 /* AdWhirlAdNetworkRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlAdNetworkRegistry.h; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlAdNetworkRegistry.h; sourceTree = SOURCE_ROOT; };
+		20F953A3139264CF00168923 /* AdWhirlClassWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlClassWrapper.h; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlClassWrapper.h; sourceTree = SOURCE_ROOT; };
+		20F953A4139264CF00168923 /* AdWhirlConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlConfig.h; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlConfig.h; sourceTree = SOURCE_ROOT; };
+		20F953A5139264CF00168923 /* AdWhirlConfigStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlConfigStore.h; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlConfigStore.h; sourceTree = SOURCE_ROOT; };
+		20F953A6139264CF00168923 /* AdWhirlCustomAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlCustomAdView.h; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlCustomAdView.h; sourceTree = SOURCE_ROOT; };
+		20F953A7139264CF00168923 /* AdWhirlError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlError.h; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlError.h; sourceTree = SOURCE_ROOT; };
+		20F953A8139264CF00168923 /* AdWhirlLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlLog.h; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlLog.h; sourceTree = SOURCE_ROOT; };
+		20F953A9139264CF00168923 /* AdWhirlView+.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AdWhirlView+.h"; path = "../adwhirl/Classes/AdWhirl/internal/AdWhirlView+.h"; sourceTree = SOURCE_ROOT; };
+		20F953AA139264CF00168923 /* AdWhirlWebBrowser.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AdWhirlWebBrowser.xib; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlWebBrowser.xib; sourceTree = SOURCE_ROOT; };
+		20F953AB139264CF00168923 /* AdWhirlWebBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlWebBrowserController.h; path = ../adwhirl/Classes/AdWhirl/internal/AdWhirlWebBrowserController.h; sourceTree = SOURCE_ROOT; };
+		20F953AC139264CF00168923 /* AWNetworkReachabilityDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWNetworkReachabilityDelegate.h; path = ../adwhirl/Classes/AdWhirl/internal/AWNetworkReachabilityDelegate.h; sourceTree = SOURCE_ROOT; };
+		20F953AD139264CF00168923 /* AWNetworkReachabilityWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWNetworkReachabilityWrapper.h; path = ../adwhirl/Classes/AdWhirl/internal/AWNetworkReachabilityWrapper.h; sourceTree = SOURCE_ROOT; };
+		20F953AE139264CF00168923 /* UIColor+AdWhirlConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+AdWhirlConfig.h"; path = "../adwhirl/Classes/AdWhirl/internal/UIColor+AdWhirlConfig.h"; sourceTree = SOURCE_ROOT; };
+		20F953B0139264CF00168923 /* ARRollerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARRollerProtocol.h; path = ../adwhirl/Classes/AdWhirl/legacy/ARRollerProtocol.h; sourceTree = SOURCE_ROOT; };
+		20F953B1139264CF00168923 /* ARRollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARRollerView.h; path = ../adwhirl/Classes/AdWhirl/legacy/ARRollerView.h; sourceTree = SOURCE_ROOT; };
+		20F953C9139264DA00168923 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDataScanner.h; path = ../adwhirl/Classes/TouchJSON/CDataScanner.h; sourceTree = SOURCE_ROOT; };
+		20F953CB139264DA00168923 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDataScanner_Extensions.h; path = ../adwhirl/Classes/TouchJSON/Extensions/CDataScanner_Extensions.h; sourceTree = SOURCE_ROOT; };
+		20F953CC139264DA00168923 /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSCharacterSet_Extensions.h; path = ../adwhirl/Classes/TouchJSON/Extensions/NSCharacterSet_Extensions.h; sourceTree = SOURCE_ROOT; };
+		20F953CD139264DA00168923 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDictionary_JSONExtensions.h; path = ../adwhirl/Classes/TouchJSON/Extensions/NSDictionary_JSONExtensions.h; sourceTree = SOURCE_ROOT; };
+		20F953CE139264DA00168923 /* NSScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSScanner_Extensions.h; path = ../adwhirl/Classes/TouchJSON/Extensions/NSScanner_Extensions.h; sourceTree = SOURCE_ROOT; };
+		20F953D0139264DA00168923 /* CJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONDataSerializer.h; path = ../adwhirl/Classes/TouchJSON/JSON/CJSONDataSerializer.h; sourceTree = SOURCE_ROOT; };
+		20F953D1139264DA00168923 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONDeserializer.h; path = ../adwhirl/Classes/TouchJSON/JSON/CJSONDeserializer.h; sourceTree = SOURCE_ROOT; };
+		20F953D2139264DA00168923 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONScanner.h; path = ../adwhirl/Classes/TouchJSON/JSON/CJSONScanner.h; sourceTree = SOURCE_ROOT; };
+		20F953D3139264DA00168923 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONSerializer.h; path = ../adwhirl/Classes/TouchJSON/JSON/CJSONSerializer.h; sourceTree = SOURCE_ROOT; };
+		20F953D4139264DA00168923 /* CSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSerializedJSONData.h; path = ../adwhirl/Classes/TouchJSON/JSON/CSerializedJSONData.h; sourceTree = SOURCE_ROOT; };
+		20F9541A13926DD500168923 /* AdWhirlAdapterMdotM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlAdapterMdotM.h; path = Classes/AdWhirlAdapterMdotM.h; sourceTree = SOURCE_ROOT; };
+		20F9541B13926DD500168923 /* AdWhirlAdapterMdotM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdWhirlAdapterMdotM.m; path = Classes/AdWhirlAdapterMdotM.m; sourceTree = SOURCE_ROOT; };
+		24DD6CF71134B3F500162E58 /* ComRiksofTiMdotmModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComRiksofTiMdotmModule.h; path = Classes/ComRiksofTiMdotmModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComRiksofTiMdotmModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComRiksofTiMdotmModule.m; path = Classes/ComRiksofTiMdotmModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* ComRiksofTiMdotmModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComRiksofTiMdotmModuleAssets.h; path = Classes/ComRiksofTiMdotmModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComRiksofTiMdotmModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComRiksofTiMdotmModuleAssets.m; path = Classes/ComRiksofTiMdotmModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComRiksofTiMdotm_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComRiksofTiMdotm_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libComRiksofTiMdotm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComRiksofTiMdotm.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libComRiksofTiMdotm.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* mdotm */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = mdotm;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				20F953C8139264DA00168923 /* TouchJSON */,
+				20F95397139264CF00168923 /* AdWhirl */,
+				20F9541A13926DD500168923 /* AdWhirlAdapterMdotM.h */,
+				20F9541B13926DD500168923 /* AdWhirlAdapterMdotM.m */,
+				24DE9E0F11C5FE74003F90F6 /* ComRiksofTiMdotmModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* ComRiksofTiMdotmModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* ComRiksofTiMdotmModule.h */,
+				24DD6CF81134B3F500162E58 /* ComRiksofTiMdotmModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		20F95397139264CF00168923 /* AdWhirl */ = {
+			isa = PBXGroup;
+			children = (
+				20F95398139264CF00168923 /* adapters */,
+				20F9539A139264CF00168923 /* AdWhirlDelegateProtocol.h */,
+				20F9539B139264CF00168923 /* AdWhirlView.h */,
+				20F9539C139264CF00168923 /* internal */,
+				20F953AF139264CF00168923 /* legacy */,
+			);
+			name = AdWhirl;
+			path = ../adwhirl/Classes/AdWhirl;
+			sourceTree = SOURCE_ROOT;
+		};
+		20F95398139264CF00168923 /* adapters */ = {
+			isa = PBXGroup;
+			children = (
+				20F95399139264CF00168923 /* AdWhirlAdNetworkAdapter.h */,
+			);
+			name = adapters;
+			path = ../adwhirl/Classes/AdWhirl/adapters;
+			sourceTree = SOURCE_ROOT;
+		};
+		20F9539C139264CF00168923 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				20F9539D139264CF00168923 /* AdWhirlAdapterCustom.h */,
+				20F9539E139264CF00168923 /* AdWhirlAdapterEvent.h */,
+				20F9539F139264CF00168923 /* AdWhirlAdapterGeneric.h */,
+				20F953A0139264CF00168923 /* AdWhirlAdNetworkAdapter+Helpers.h */,
+				20F953A1139264CF00168923 /* AdWhirlAdNetworkConfig.h */,
+				20F953A2139264CF00168923 /* AdWhirlAdNetworkRegistry.h */,
+				20F953A3139264CF00168923 /* AdWhirlClassWrapper.h */,
+				20F953A4139264CF00168923 /* AdWhirlConfig.h */,
+				20F953A5139264CF00168923 /* AdWhirlConfigStore.h */,
+				20F953A6139264CF00168923 /* AdWhirlCustomAdView.h */,
+				20F953A7139264CF00168923 /* AdWhirlError.h */,
+				20F953A8139264CF00168923 /* AdWhirlLog.h */,
+				20F953A9139264CF00168923 /* AdWhirlView+.h */,
+				20F953AA139264CF00168923 /* AdWhirlWebBrowser.xib */,
+				20F953AB139264CF00168923 /* AdWhirlWebBrowserController.h */,
+				20F953AC139264CF00168923 /* AWNetworkReachabilityDelegate.h */,
+				20F953AD139264CF00168923 /* AWNetworkReachabilityWrapper.h */,
+				20F953AE139264CF00168923 /* UIColor+AdWhirlConfig.h */,
+			);
+			name = internal;
+			path = ../adwhirl/Classes/AdWhirl/internal;
+			sourceTree = SOURCE_ROOT;
+		};
+		20F953AF139264CF00168923 /* legacy */ = {
+			isa = PBXGroup;
+			children = (
+				20F953B0139264CF00168923 /* ARRollerProtocol.h */,
+				20F953B1139264CF00168923 /* ARRollerView.h */,
+			);
+			name = legacy;
+			path = ../adwhirl/Classes/AdWhirl/legacy;
+			sourceTree = SOURCE_ROOT;
+		};
+		20F953C8139264DA00168923 /* TouchJSON */ = {
+			isa = PBXGroup;
+			children = (
+				20F953C9139264DA00168923 /* CDataScanner.h */,
+				20F953CA139264DA00168923 /* Extensions */,
+				20F953CF139264DA00168923 /* JSON */,
+			);
+			name = TouchJSON;
+			path = ../adwhirl/Classes/TouchJSON;
+			sourceTree = SOURCE_ROOT;
+		};
+		20F953CA139264DA00168923 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				20F953CB139264DA00168923 /* CDataScanner_Extensions.h */,
+				20F953CC139264DA00168923 /* NSCharacterSet_Extensions.h */,
+				20F953CD139264DA00168923 /* NSDictionary_JSONExtensions.h */,
+				20F953CE139264DA00168923 /* NSScanner_Extensions.h */,
+			);
+			name = Extensions;
+			path = ../adwhirl/Classes/TouchJSON/Extensions;
+			sourceTree = SOURCE_ROOT;
+		};
+		20F953CF139264DA00168923 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				20F953D0139264DA00168923 /* CJSONDataSerializer.h */,
+				20F953D1139264DA00168923 /* CJSONDeserializer.h */,
+				20F953D2139264DA00168923 /* CJSONScanner.h */,
+				20F953D3139264DA00168923 /* CJSONSerializer.h */,
+				20F953D4139264DA00168923 /* CSerializedJSONData.h */,
+			);
+			name = JSON;
+			path = ../adwhirl/Classes/TouchJSON/JSON;
+			sourceTree = SOURCE_ROOT;
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* ComRiksofTiMdotm_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* ComRiksofTiMdotm_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* ComRiksofTiMdotmModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* ComRiksofTiMdotmModuleAssets.h in Headers */,
+				20F953B2139264CF00168923 /* AdWhirlAdNetworkAdapter.h in Headers */,
+				20F953B3139264CF00168923 /* AdWhirlDelegateProtocol.h in Headers */,
+				20F953B4139264CF00168923 /* AdWhirlView.h in Headers */,
+				20F953B5139264CF00168923 /* AdWhirlAdapterCustom.h in Headers */,
+				20F953B6139264CF00168923 /* AdWhirlAdapterEvent.h in Headers */,
+				20F953B7139264CF00168923 /* AdWhirlAdapterGeneric.h in Headers */,
+				20F953B8139264CF00168923 /* AdWhirlAdNetworkAdapter+Helpers.h in Headers */,
+				20F953B9139264CF00168923 /* AdWhirlAdNetworkConfig.h in Headers */,
+				20F953BA139264CF00168923 /* AdWhirlAdNetworkRegistry.h in Headers */,
+				20F953BB139264CF00168923 /* AdWhirlClassWrapper.h in Headers */,
+				20F953BC139264CF00168923 /* AdWhirlConfig.h in Headers */,
+				20F953BD139264CF00168923 /* AdWhirlConfigStore.h in Headers */,
+				20F953BE139264CF00168923 /* AdWhirlCustomAdView.h in Headers */,
+				20F953BF139264CF00168923 /* AdWhirlError.h in Headers */,
+				20F953C0139264CF00168923 /* AdWhirlLog.h in Headers */,
+				20F953C1139264CF00168923 /* AdWhirlView+.h in Headers */,
+				20F953C2139264CF00168923 /* AdWhirlWebBrowserController.h in Headers */,
+				20F953C3139264CF00168923 /* AWNetworkReachabilityDelegate.h in Headers */,
+				20F953C4139264CF00168923 /* AWNetworkReachabilityWrapper.h in Headers */,
+				20F953C5139264CF00168923 /* UIColor+AdWhirlConfig.h in Headers */,
+				20F953C6139264CF00168923 /* ARRollerProtocol.h in Headers */,
+				20F953C7139264CF00168923 /* ARRollerView.h in Headers */,
+				20F953D5139264DA00168923 /* CDataScanner.h in Headers */,
+				20F953D6139264DA00168923 /* CDataScanner_Extensions.h in Headers */,
+				20F953D7139264DA00168923 /* NSCharacterSet_Extensions.h in Headers */,
+				20F953D8139264DA00168923 /* NSDictionary_JSONExtensions.h in Headers */,
+				20F953D9139264DA00168923 /* NSScanner_Extensions.h in Headers */,
+				20F953DA139264DA00168923 /* CJSONDataSerializer.h in Headers */,
+				20F953DB139264DA00168923 /* CJSONDeserializer.h in Headers */,
+				20F953DC139264DA00168923 /* CJSONScanner.h in Headers */,
+				20F953DD139264DA00168923 /* CJSONSerializer.h in Headers */,
+				20F953DE139264DA00168923 /* CSerializedJSONData.h in Headers */,
+				20F9541C13926DD500168923 /* AdWhirlAdapterMdotM.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* mdotm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "mdotm" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mdotm;
+			productName = mdotm;
+			productReference = D2AAC07E0554694100DB518D /* libComRiksofTiMdotm.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "mdotm" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* mdotm */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* mdotm */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* ComRiksofTiMdotmModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* ComRiksofTiMdotmModuleAssets.m in Sources */,
+				20F9541D13926DD500168923 /* AdWhirlAdapterMdotM.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* mdotm */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/ComRiksofTiMdotm.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComRiksofTiMdotm_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = ComRiksofTiMdotm;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ComRiksofTiMdotm.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComRiksofTiMdotm_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = ComRiksofTiMdotm;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "mdotm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "mdotm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

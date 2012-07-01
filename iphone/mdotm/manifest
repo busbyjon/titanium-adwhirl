@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+description: MDotM network for titanium-adwhirl
+author: Khurram Ali
+license: GPL v3
+copyright: Copyright (c) 2011 by RIKSOF (Private) Limited
+
+
+# these should not be edited
+name: mdotm
+moduleid: com.riksof.ti.mdotm
+guid: 033a2075-1dba-4ca2-83bc-1ee7fb5dd74e
+platform: iphone
+minsdk: 1.6.2

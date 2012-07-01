@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.2
+description: iAd network for titanium-adwhirl
+author: Khurram Ali // Jon Busby
+license: GPL v3
+copyright: Copyright (c) 2011 by RIKSOF (Private) Limited
+
+
+# these should not be edited
+name: iad
+moduleid: com.riksof.ti.iad
+guid: 88d29317-9429-44e5-9782-c185e712ac82
+platform: iphone
+minsdk: 1.6.2

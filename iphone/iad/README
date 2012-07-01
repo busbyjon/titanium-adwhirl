@@ -1,0 +1,3 @@
+This module requires com.riksof.ti.adwhirl. This module adds support for the iAd network.
+
+You will need to include this module in your Titanium application. This module only needs to be loaded and it will work.

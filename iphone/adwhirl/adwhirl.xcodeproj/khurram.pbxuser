@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeSDKPreference = iphoneos4.1;
+		activeTarget = D2AAC07D0554694100DB518D /* adwhirl */;
+		addToTargets = (
+			D2AAC07D0554694100DB518D /* adwhirl */,
+		);
+		codeSenseManager = 20F94FC21390D97300168923 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					674,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					746,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 329976419;
+			PBXWorkspaceStateSaveDate = 329976419;
+		};
+		perUserProjectItems = {
+			2094AB4E13AB2072001EA408 /* PBXTextBookmark */ = 2094AB4E13AB2072001EA408 /* PBXTextBookmark */;
+			2094AB4F13AB2072001EA408 /* PBXTextBookmark */ = 2094AB4F13AB2072001EA408 /* PBXTextBookmark */;
+			2094AB5013AB2072001EA408 /* PBXTextBookmark */ = 2094AB5013AB2072001EA408 /* PBXTextBookmark */;
+			2094AB5113AB2072001EA408 /* PBXTextBookmark */ = 2094AB5113AB2072001EA408 /* PBXTextBookmark */;
+			2094AB5213AB2072001EA408 /* PBXTextBookmark */ = 2094AB5213AB2072001EA408 /* PBXTextBookmark */;
+			2094AB5313AB2072001EA408 /* PBXTextBookmark */ = 2094AB5313AB2072001EA408 /* PBXTextBookmark */;
+			2094AB5413AB2072001EA408 /* PBXTextBookmark */ = 2094AB5413AB2072001EA408 /* PBXTextBookmark */;
+			2094AB5513AB2072001EA408 /* PBXTextBookmark */ = 2094AB5513AB2072001EA408 /* PBXTextBookmark */;
+			2094AB5613AB2072001EA408 /* PBXTextBookmark */ = 2094AB5613AB2072001EA408 /* PBXTextBookmark */;
+			20F950541390EDA600168923 /* PBXTextBookmark */ = 20F950541390EDA600168923 /* PBXTextBookmark */;
+			20F9518713922BCE00168923 /* PBXTextBookmark */ = 20F9518713922BCE00168923 /* PBXTextBookmark */;
+			20F9528F13925A8200168923 /* PBXTextBookmark */ = 20F9528F13925A8200168923 /* PBXTextBookmark */;
+			20F952EE1392600500168923 /* PBXTextBookmark */ = 20F952EE1392600500168923 /* PBXTextBookmark */;
+			20F952EF1392600500168923 /* PBXTextBookmark */ = 20F952EF1392600500168923 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 20F94FC11390D97300168923 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2094AB4E13AB2072001EA408 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20F9542B1392728400168923 /* module.xcconfig */;
+		name = "module.xcconfig: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 924;
+		vrLoc = 0;
+	};
+	2094AB4F13AB2072001EA408 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20F94FF91390ED6700168923 /* AdWhirlAdNetworkAdapter.h */;
+		name = "AdWhirlAdNetworkAdapter.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1078;
+		vrLoc = 0;
+	};
+	2094AB5013AB2072001EA408 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DE9E0F11C5FE74003F90F6 /* ComRiksofTiAdwhirlModuleAssets.h */;
+		name = "ComRiksofTiAdwhirlModuleAssets.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	2094AB5113AB2072001EA408 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DE9E1011C5FE74003F90F6 /* ComRiksofTiAdwhirlModuleAssets.m */;
+		name = "ComRiksofTiAdwhirlModuleAssets.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 988;
+		vrLoc = 0;
+	};
+	2094AB5213AB2072001EA408 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* ComRiksofTiAdwhirlModule.h */;
+		name = "ComRiksofTiAdwhirlModule.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 870;
+		vrLoc = 0;
+	};
+	2094AB5313AB2072001EA408 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF81134B3F500162E58 /* ComRiksofTiAdwhirlModule.m */;
+		name = "ComRiksofTiAdwhirlModule.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 544;
+		vrLoc = 2318;
+	};
+	2094AB5413AB2072001EA408 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20F95151139221FE00168923 /* ComRiksofTiAdwhirlAdView.m */;
+		name = "ComRiksofTiAdwhirlAdView.m: 48";
+		rLen = 0;
+		rLoc = 989;
+		rType = 0;
+		vrLen = 702;
+		vrLoc = 575;
+	};
+	2094AB5513AB2072001EA408 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20F95150139221FE00168923 /* ComRiksofTiAdwhirlAdView.h */;
+		name = "ComRiksofTiAdwhirlAdView.h: 15";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 0;
+	};
+	2094AB5613AB2072001EA408 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20F95150139221FE00168923 /* ComRiksofTiAdwhirlAdView.h */;
+		name = "ComRiksofTiAdwhirlAdView.h: 15";
+		rLen = 18;
+		rLoc = 463;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 0;
+	};
+	20F94FC11390D97300168923 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	20F94FC21390D97300168923 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	20F94FF91390ED6700168923 /* AdWhirlAdNetworkAdapter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 1716}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1078}";
+		};
+	};
+	20F9500D1390ED6700168923 /* AdWhirlConfig.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {572, 7332}}";
+			sepNavSelRange = "{6513, 0}";
+			sepNavVisRange = "{6223, 566}";
+		};
+	};
+	20F950201390ED6700168923 /* UIColor+AdWhirlConfig.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 897}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 929}";
+		};
+	};
+	20F950531390EDA600168923 /* module.xcconfig */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xcconfig;
+		name = module.xcconfig;
+		path = "/Users/khurram/Documents/applications/titanium-adwhirl/iphone/adwhirl/module.xcconfig";
+		sourceTree = "<absolute>";
+	};
+	20F950541390EDA600168923 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20F9500D1390ED6700168923 /* AdWhirlConfig.m */;
+		name = "AdWhirlConfig.m: 207";
+		rLen = 0;
+		rLoc = 6513;
+		rType = 0;
+		vrLen = 1585;
+		vrLoc = 5793;
+	};
+	20F95150139221FE00168923 /* ComRiksofTiAdwhirlAdView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 427}}";
+			sepNavSelRange = "{463, 18}";
+			sepNavVisRange = "{0, 491}";
+		};
+	};
+	20F95151139221FE00168923 /* ComRiksofTiAdwhirlAdView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 884}}";
+			sepNavSelRange = "{989, 0}";
+			sepNavVisRange = "{575, 702}";
+		};
+	};
+	20F951541392222400168923 /* ComRiksofTiAdwhirlAdViewProxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 458}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 339}";
+		};
+	};
+	20F9518713922BCE00168923 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20F951541392222400168923 /* ComRiksofTiAdwhirlAdViewProxy.h */;
+		name = "ComRiksofTiAdwhirlAdViewProxy.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 0;
+	};
+	20F9528F13925A8200168923 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20F950531390EDA600168923 /* module.xcconfig */;
+		name = "module.xcconfig: 28";
+		rLen = 11;
+		rLoc = 804;
+		rType = 0;
+		vrLen = 870;
+		vrLoc = 0;
+	};
+	20F952EE1392600500168923 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20F950201390ED6700168923 /* UIColor+AdWhirlConfig.m */;
+		name = "UIColor+AdWhirlConfig.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 929;
+		vrLoc = 0;
+	};
+	20F952EF1392600500168923 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20F952F01392600500168923 /* module.xcconfig */;
+		name = "module.xcconfig: 27";
+		rLen = 0;
+		rLoc = 775;
+		rType = 0;
+		vrLen = 775;
+		vrLoc = 0;
+	};
+	20F952F01392600500168923 /* module.xcconfig */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xcconfig;
+		name = module.xcconfig;
+		path = "/Library/Application Support/Titanium/modules/iphone/com.riksof.ti.admob/0.1/module.xcconfig";
+		sourceTree = "<absolute>";
+	};
+	20F9542B1392728400168923 /* module.xcconfig */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xcconfig;
+		name = module.xcconfig;
+		path = "/Library/Application Support/Titanium/modules/iphone/com.riksof.ti.adwhirl/0.1/module.xcconfig";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 427}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 924}";
+		};
+	};
+	24416B8111C4CA220047AFDD /* Build & Test */ = {
+		activeExec = 0;
+	};
+	24DD6CF71134B3F500162E58 /* ComRiksofTiAdwhirlModule.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 427}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 870}";
+		};
+	};
+	24DD6CF81134B3F500162E58 /* ComRiksofTiAdwhirlModule.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 1560}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2318, 544}";
+		};
+	};
+	24DE9E0F11C5FE74003F90F6 /* ComRiksofTiAdwhirlModuleAssets.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 427}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 877}";
+		};
+	};
+	24DE9E1011C5FE74003F90F6 /* ComRiksofTiAdwhirlModuleAssets.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 427}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 988}";
+		};
+	};
+	D2AAC07D0554694100DB518D /* adwhirl */ = {
+		activeExec = 0;
+	};
+}

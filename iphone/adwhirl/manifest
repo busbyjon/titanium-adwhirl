@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.2
+description: AdWhirl network
+author: Khurram Ali // Jon Busby
+license: GPL v3
+copyright: Copyright (c) 2011 by RIKSOF (Private) Limited
+
+
+# these should not be edited
+name: adwhirl
+moduleid: com.riksof.ti.adwhirl
+guid: fd0afec7-77cc-4e6a-a8f5-ea4f41d1c30a
+platform: iphone
+minsdk: 1.6.2

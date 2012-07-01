@@ -1,0 +1,10 @@
+This module adds support for the AdWhirl on Titanium.
+
+You will need to include this module in your Titanium application. An add banner is created like this:
+
+var adWhirlModule = require('com.riksof.ti.adwhirl');
+
+var iAd = adWhirlModule.createAdView({
+    "applicationKey":"",
+});
+parentView.add(iAd);

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="build/.apt_generated"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/khurram/tools/android-sdk-macosx/platforms/android-7/android.jar"/>
+	<classpathentry kind="lib" path="/Users/khurram/tools/android-sdk-macosx/add-ons/addon-google_apis-google_inc_-7/libs/maps.jar"/>
+	<classpathentry kind="lib" path="/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar"/>
+	<classpathentry kind="lib" path="/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/js.jar"/>
+	<classpathentry kind="lib" path="lib/AdWhirlSDK_Android_3.1.1.jar"/>
+	<classpathentry kind="lib" path="build.xml"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

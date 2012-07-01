@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.2.1
+description: AdMob network for titanium-adwhirl
+author: Khurram Ali // Jon Busby
+license: GPL v3
+copyright: Copyright (c) 2011 by RIKSOF (Private) Limited
+
+
+# these should not be edited
+name: admob
+moduleid: com.riksof.ti.admob
+guid: 11baa1bb-53b2-4d79-aeae-4b0f619a9617
+platform: iphone
+minsdk: 1.6.2
