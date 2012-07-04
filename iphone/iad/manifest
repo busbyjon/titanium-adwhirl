@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.2
+version: 0.3.0
 description: iAd network for titanium-adwhirl
 author: Khurram Ali // Jon Busby
 license: GPL v3

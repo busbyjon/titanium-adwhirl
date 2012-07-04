@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.2.1
+version: 0.3.0
 description: AdMob network for titanium-adwhirl
 author: Khurram Ali // Jon Busby
 license: GPL v3
